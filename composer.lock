@@ -3,27 +3,8 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7b580ac1ef33d494c5cdde9f8011f3fb",
+    "hash": "2e6ed41f6e48ff3ea9e81409e58a5bae",
     "packages": [
-        {
-            "name": "dg/adminer-custom",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dg/adminer-custom.git",
-                "reference": "d0d0f67e4aa03c3f7c1fc3898d1e179a0d22c8dc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dg/adminer-custom/zipball/d0d0f67e4aa03c3f7c1fc3898d1e179a0d22c8dc",
-                "reference": "d0d0f67e4aa03c3f7c1fc3898d1e179a0d22c8dc",
-                "shasum": ""
-            },
-            "type": "project",
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Customization for the best database management tool written in PHP, Adminer",
-            "time": "2014-01-11 20:15:20"
-        },
         {
             "name": "nette/nette",
             "version": "v2.1.0",
@@ -92,58 +73,7 @@
         }
     ],
     "packages-dev": [
-        {
-            "name": "nette/tester",
-            "version": "v0.9.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/tester.git",
-                "reference": "812b5ab2f59b0d742dd30035865467ec0b2f6ee7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/812b5ab2f59b0d742dd30035865467ec0b2f6ee7",
-                "reference": "812b5ab2f59b0d742dd30035865467ec0b2f6ee7",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "bin": [
-                "Tester/tester",
-                "Tester/coverage-report"
-            ],
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "Tester/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "http://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "http://nette.org/contributors"
-                }
-            ],
-            "description": "An easy-to-use PHP Unit Testing framework.",
-            "homepage": "http://nette.org",
-            "keywords": [
-                "nette",
-                "testing",
-                "unit"
-            ],
-            "time": "2013-12-30 23:49:37"
-        }
+
     ],
     "aliases": [
 
