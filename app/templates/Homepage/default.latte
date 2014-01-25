@@ -5,7 +5,7 @@
 
 {block content}
 
-<a n:href="signal!" data-nette-csrf-token="{$presenter->getCsrfToken()}">Do some action</a>
+<a n:href="signal!" data-nette-csrf-token="{$presenter->generateCsrfToken()}">Do some action</a>
 
 {if $disabledJavascript}
 	<p>JavaScript is disabled. <a n:href="this, disabledJavascript => false">Enable JavaScript</a></p>

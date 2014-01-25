@@ -15,7 +15,7 @@
 
 <p>
 	<form method="post" action="{$yesAction}">
-		<input type="hidden" name="__token__" value="{$presenter->getCsrfToken()}">
+		<input type="hidden" name="__token__" value="{$presenter->generateCsrfToken()}">
 		<input type="submit" value="Yes">
 	</form>
 
